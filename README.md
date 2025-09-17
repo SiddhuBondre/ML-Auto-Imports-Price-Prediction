@@ -9,67 +9,67 @@ The objective of this project is to predict the price of imported automobiles ba
 ### Dataset Name: 
 Automobile Imports Dataset
 
-## Source: 
+### Source: 
 UCI Machine Learning Repository
 
-## Total Instances:
+### Total Instances:
 ~205
 
-## Total Features:
+### Total Features:
 26 (including the target: price)
 
-## Target Variable: 
+### Target Variable: 
 price (continuous)
 
 # 🔍 Problem Statement:
 Given various attributes of imported cars, predict the market price of a car using regression models.
 Key challenges include:
 
-Handling missing values
+1) Handling missing values
 
-Dealing with outliers
+2) Dealing with outliers
 
-Converting categorical data
+3) Converting categorical data
 
-Ensuring feature relevance
+4) Ensuring feature relevance
 
-Preventing data leakage and overfitting
+5) Preventing data leakage and overfitting
 
 # 🧹 Data Preprocessing:
 
-Missing Values Handling:
+### Missing Values Handling:
 
-Replaced missing numerical values with mean/median
+1) Replaced missing numerical values with mean/median
 
-Replaced missing categorical values with mode
+2) Replaced missing categorical values with mode
 
-Dropped rows with excessive missing data
+3) Dropped rows with excessive missing data
 
-Encoding Categorical Variables:
+### Encoding Categorical Variables:
 
-Label encoding for ordinal features
+1) Label encoding for ordinal features
 
-One-hot encoding for nominal features
+2) One-hot encoding for nominal features
 
-Outlier Detection and Removal:
+### Outlier Detection and Removal:
 
-Visualized using boxplots
+1) Visualized using boxplots
 
-Removed extreme outliers using IQR or z-score
+2) Removed extreme outliers using IQR or z-score
 
-Feature Scaling:
+### Feature Scaling:
 
-Standardized or Min-Max scaled numeric features
+1) Standardized or Min-Max scaled numeric features
 
 # 🔧 Feature Engineering:
 
-Created new features such as:
+### Created new features such as:
 
-Power-to-weight ratio
+1) Power-to-weight ratio
 
-Car age (if year info available)
+2) Car age (if year info available)
 
-Grouped car brands into segments (luxury, economy, etc.)
+3) Grouped car brands into segments (luxury, economy, etc.)
 
 # 📈 Model Building:
 
