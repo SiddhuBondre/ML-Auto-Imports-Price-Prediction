@@ -73,27 +73,27 @@ Key challenges include:
 
 # 📈 Model Building:
 
-Used various regression algorithms:
+### Used various regression algorithms:
 
-Linear Regression
+1) Linear Regression
 
-Ridge / Lasso Regression
+2) Ridge / Lasso Regression
 
-Random Forest Regressor
+3) Random Forest Regressor
 
-XGBoost Regressor
+4) XGBoost Regressor
 
-Stacked Ensemble Models
+5) Stacked Ensemble Models
 
 # 🧪 Model Evaluation:
 
-Used K-Fold Cross Validation and evaluated using:
+### Used K-Fold Cross Validation and evaluated using:
 
-R² Score
+1) R² Score
 
-RMSE (Root Mean Squared Error)
+2) RMSE (Root Mean Squared Error)
 
-MAE (Mean Absolute Error)
+3) MAE (Mean Absolute Error)
 
 # Best Model:
 
