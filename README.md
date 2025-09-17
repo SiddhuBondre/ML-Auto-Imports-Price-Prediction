@@ -1,19 +1,25 @@
 ## 🚗 Automobile Imports Price Prediction – Project Report
 
 # 📌 Objective:
+
 The objective of this project is to predict the price of imported automobiles based on various features such as engine size, horsepower, brand, fuel type, and more. This helps in understanding which factors most influence the pricing of automobiles and can assist manufacturers, sellers, and buyers in making informed decisions.
 
 # 📊 Dataset Overview:
 
-Dataset Name: Automobile Imports Dataset
+## Dataset Name:
+Automobile Imports Dataset
 
-Source: UCI Machine Learning Repository
+## Source: 
+UCI Machine Learning Repository
 
-Total Instances: ~205
+## Total Instances:
+~205
 
-Total Features: 26 (including the target: price)
+## Total Features:
+26 (including the target: price)
 
-Target Variable: price (continuous)
+## Target Variable: 
+price (continuous)
 
 # 🔍 Problem Statement:
 Given various attributes of imported cars, predict the market price of a car using regression models.
